@@ -12,7 +12,7 @@ st.title("RAG-LLM")
 with st.container(border =True,height = 750):
 
     with st.container(border = True,height = 150):
-        user_data = st.file_uploader("Upload your data")
+        user_data = st.file_uploader("Upload your data") # take the data in any file format
     with st.container(border = True,height = 550):
         prompt = st.chat_input("Say something") # "prompt" variable takes the user input
 
